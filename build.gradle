@@ -1,4 +1,7 @@
+description = "Eureka Discovery Server"
+
 bootJar {
+    dependsOn classes
     mainClass = "ec.com.ecommerce.DiscoveryServerApplication"
 }
 
